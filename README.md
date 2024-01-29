@@ -17,8 +17,8 @@ The project was bootstrapped with [Create React App](https://github.com/facebook
 The project and it's template can be used to build more complex UI.
 
 ## Demo and Screenshot
-This application is deployed to [Vercel](https://vercel.com/) click the demo link to view.
-[Demo](https://business-card-olive.vercel.app/)
+This application is deployed to [Vercel](https://vercel.com/) click the 
+[Demo](https://business-card-olive.vercel.app/) link to view.
 ![Screenshot](/src/images/screenshot.png)
 
 ## Prerequisites
