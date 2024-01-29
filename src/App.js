@@ -3,9 +3,8 @@ import Info from "./components/Info";
 
 function App() {
   return (
-    <div className="">
+    <div className="h-screen">
       <Info />
-      
     </div>
   );
 }

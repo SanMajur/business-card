@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Digital Business Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description 
 
-## Available Scripts
+This simple ReactJS project creates a digital business card, which is a solo project from a free [React course](https://scrimba.com/learn/learnreact/solo-project-pro-digital-business-card-coce646e88eea46f91af43ca4) on [scrimba](https://scrimba.com/) and on [YouTube](https://www.youtube.com/watch?v=bMknfKXIFA8&t=5083s).
 
-In the project directory, you can run:
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [TailwindCSS](https://tailwindcss.com/) for styling. The project desmostrate the usage and understanding following topics:-
 
-### `npm start`
+- Creating a Component in ReactJS
+- Exporting and Importing Functional Components
+- Installing and using Tailwindcss
+- Installing and using React-Icons
+- Using Basic Routing in ReactJS
+- JavaScript Functions
+- JSX syntax
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project and it's template can be used to build more complex UI.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo and Screenshot
+This application is deployed to [Vercel](https://vercel.com/) click the demo link to view.
+[Demo](https://business-card-olive.vercel.app/)
+![Screenshot](/src/images/screenshot.png)
 
-### `npm test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### NodeJS
 
-### `npm run build`
+This project uses NodeJS ```v21.0``` and above. use the following command to check if you have NodeJS installed in your computer.
+```node -v``` or ```node --version```
+ If NodeJS is not installed, refer to [https://nodejs.org/en/](https://nodejs.org/en/) to install NodeJS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ### Cloning and Running the Application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ To clone the project into your local environment, use the ```git clone``` command. After cloning the application, navigate to the project folder using the ```cd``` command and run ```npm install``` to install all the npm packages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ To run the application, use the following command
+ ```npm start```
+ The application will run on **localhost:3000**
 
-### `npm run eject`
+ ## Application Design
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ### Components
+ 
+ 1. _About Component:_ Displays the About section of the Digital Business Card
+ 2. _Footer Component:_ Displays the social icons
+ 3. _Interests Component:_ Displays the Interest section
+ 4. _Info Component:_ Displays the Info section and references the above components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ## Resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ - [create-react-app](https://create-react-app.dev/) a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
+ - [ReactJS](https://react.dev/) The library for web and native user interfaces
+ - [TailwindCSS](https://tailwindcss.com/) to rapidly build modern websites without ever leaving your HTML.
+ - [React-Icons](https://react-icons.github.io/react-icons/) to include popular icons in React projects easily
+ - [JSX](https://legacy.reactjs.org/docs/introducing-jsx.html) a syntax extension to JavaScript that produces React “elements”.
+ - [JavaScript Functions](https://www.freecodecamp.org/news/javascript-functions-and-scope/) to create the functional components.
+ - [Figma](https://www.figma.com/file/u5hCh4ljLXIOBNKKbq6P0r/Digital-Business-Card-(Copy)?type=design&node-id=0-129&mode=design&t=Nok36go74eVM4TXO-0) for the design
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ ## Credits
 
-## Learn More
+ - [FreeCodeCamp YouTube Channel](https://www.youtube.com/results?search_query=freecodecamp) for the uploading the course on Youtube
+ - [Bob Ziroll](https://twitter.com/bobziroll) for the amazing way he teaches this React Course
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## License
+ [MIT](https://choosealicense.com/licenses/mit/)
